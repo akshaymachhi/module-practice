@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* h3{
+    font-size: 28px;
+    font-weight:500;
+} */
+
+:root {
+    --white-color: #ffffff;
+    --green-color: #125C4F;
+    --light-green: #0f987f;
+    --brow-color: rgb(74 21 9);
+    --yellow-color: #FAF2A6;
+    --gray-color: #615c5c;
+}
+
+.primary-cta {
+    padding: 10px 22px;
+    background-color: var(--green-color);
+    color: var(--white-color);
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.cta :hover {
+    background: var(--light-green);
+    color: var(--white-color);
+    transition: 0.5s;
+}
+
+.cta {
+    margin-top: 20px;
+}
