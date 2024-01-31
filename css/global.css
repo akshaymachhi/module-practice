@@ -8,7 +8,9 @@
 .section-padding {
     padding: 70px 0;
 }
-
+img{
+    width: 100%;
+}
 a {
     text-decoration: none;
 }

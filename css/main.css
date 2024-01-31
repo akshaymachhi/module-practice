@@ -19,10 +19,9 @@
     bottom: 0;
     right: 0;
     transition: 1.5s ease-in-out;
-
-    /* width: 100%;
-    height: 100%; */
-    /* display: block !important; */
+    width: 100%;
+    height: 100%;
+    display: block !important;
     /* opacity: 0; */
 }
 
@@ -77,18 +76,14 @@
 
 /* --------------------------------------Sign Post-------------------------------------------- */
 
-.signpost {
+.signpost-variation  {
     background-color: var(--yellow-color);
 }
 
-.signpost-box .signpost-detail {
+.signpost-variation .signpost-box .signpost-detail {
     background-color: var(--white-color);
     padding: 15px;
 
-}
-
-.signpost-box .signpost-image img {
-    width: 100%;
 }
 
 /* <!-- --------------------------------------------ACCORDION---------------------------------------------- --> */
@@ -133,15 +128,15 @@
 
 /* -------------------------Sign Post-Image/Image with Rollover/Document Download------------------ */
 
-.signpost-rollover {
+.rollover-variation {
     background: var(--light-green);
 }
 
-.signpost-rollover-box {
+.rollover-variation .signpost-box {
     position: relative;
 }
 
-.signpost-rollover-box .signpost-rollover-detail {
+.rollover-variation .signpost-box .signpost-detail {
     height: 60px;
     position: absolute;
     padding: 15px;
@@ -152,11 +147,11 @@
     overflow: hidden;
 }
 
-.signpost-rollover-box .signpost-rollover-detail .signpost-title h3 {
+.rollover-variation .signpost-box .signpost-detail .signpost-title h3 {
     padding-bottom: 10px;
 }
 
-.signpost-rollover-box:hover .signpost-rollover-detail {
+.rollover-variation .signpost-box:hover .signpost-detail {
     height: 180px;
     padding: 10px;
 }
