@@ -37,7 +37,6 @@
 }
 
 .banner-sub-block .banner-text h1 {
-    font-size: 4rem;
     font-weight: bold;
   
 }
@@ -76,7 +75,9 @@
     font-size: 1.5rem;
     text-transform: uppercase;
 }
-
+.feature-title h3{
+    margin: 15px 0;
+}
 /* --------------------------------------Sign Post-------------------------------------------- */
 
 .signpost-variation {
@@ -160,12 +161,12 @@
 }
 
 
-/* .signpost-rollover-detail p {
+/* .signpost-detail p {
     visibility: hidden;
     opacity: 0;
 }
 
-.signpost-rollover-detail:hover p {
+.signpost-detail:hover p {
     visibility: visible;  
     opacity: 1;  
 } */
@@ -186,6 +187,7 @@
     color: var(--white-color);
     padding: 10px 20px;
     border: none;
+    font-size: 1.7rem;
 }
 
 .tab button:hover {
@@ -263,6 +265,9 @@
 
     .banner-image img {
         min-height: 400px;
+    }
+    p {
+        font-size: 1rem;
     }
 }
 

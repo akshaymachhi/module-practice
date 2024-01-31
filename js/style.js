@@ -26,7 +26,6 @@ function slideshow(num) {
         //  y.style.opacity = 0;
         //  y.style.visibility = "hidden";
 
-
     }
     slider[num].style.display = "block";
     // slider[num].style.opacity = 1;
