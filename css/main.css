@@ -37,13 +37,13 @@
 }
 
 .banner-sub-block .banner-text h1 {
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: bold;
   
 }
 
 .arrow {
-    font-size: 20px;
+    font-size: 2rem;
     color: rgb(88, 83, 83);
     padding: 7px 18px;
     background: var(--white-color);
@@ -73,7 +73,7 @@
 }
 
 .feature-content-details.feature-label {
-    font-size: 15px;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 
@@ -239,7 +239,7 @@
     }
 
     .arrow {
-        font-size: 17px;
+        font-size: 1.7rem;
         padding: 4px 10px;
     }
 
@@ -257,7 +257,7 @@
     }
 
     .banner-sub-block .banner-text h1 {
-        font-size: 25px;
+        font-size: 2.5rem;
         font-weight: bold;
     }
 
@@ -268,7 +268,7 @@
 
 @media (max-width:950px) {
     .signpost-rollover-box .signpost-rollover-detail .signpost-description p {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
    
 }
