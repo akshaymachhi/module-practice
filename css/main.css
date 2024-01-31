@@ -2,28 +2,30 @@
 
 /* ====================================== Sliding Banner ============================= */
 
-
-.banner-image img {
-    width: 100%;
-}
-
 .banner {
     position: relative;
-    height: 541px;
 }
 
+/* .banner {
+    position: relative;
+    height: 541px;
+} */
+
 .banner-sub-block {
-    position: absolute;
-    left: 0;
+    /* position: absolute; */
+    position: relative;
+    /* left: 0;
     top: 0;
     bottom: 0;
+    margin: auto;
     right: 0;
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
     width: 100%;
     height: 100%;
     display: block !important;
-    /* opacity: 0; */
+    opacity: 0; */
 }
+
 
 .banner-sub-block .banner-text {
     position: absolute;
@@ -37,6 +39,7 @@
 .banner-sub-block .banner-text h1 {
     font-size: 40px;
     font-weight: bold;
+  
 }
 
 .arrow {
@@ -76,7 +79,7 @@
 
 /* --------------------------------------Sign Post-------------------------------------------- */
 
-.signpost-variation  {
+.signpost-variation {
     background-color: var(--yellow-color);
 }
 
@@ -267,4 +270,5 @@
     .signpost-rollover-box .signpost-rollover-detail .signpost-description p {
         font-size: 15px;
     }
+   
 }

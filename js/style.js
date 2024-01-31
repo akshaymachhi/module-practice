@@ -6,8 +6,6 @@ let flag = 0;
 function btnclick(x) {
     flag = flag + x;
     slideshow(flag);
-    // slider.style.left = "${num+1}%"
-
 }
 slideshow(flag);
 
@@ -24,16 +22,15 @@ function slideshow(num) {
     }
 
     for (let y of slider) {
-        // y.style.display = "none"
-         y.style.opacity = 0;
+        y.style.display = "none"
+        //  y.style.opacity = 0;
+        //  y.style.visibility = "hidden";
 
 
     }
-    // slider[num].style.display = "block";
-    slider[num].style.opacity = 1;
-
-    // slider.style.transform = "translateX(-${flag + 100}%)";
-
+    slider[num].style.display = "block";
+    // slider[num].style.opacity = 1;
+    // y.style.visibility = "visible";
 }
 
 /* <!-- --------------------------------------------ACCORDION JS---------------------------------------------- --> */
