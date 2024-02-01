@@ -4,25 +4,20 @@
 
 .banner {
     position: relative;
-    min-height: 541px;
-}
-.banner-image img{
-    width: 100%;
+    /* height: 541px; */
 }
 
 .banner-sub-block {
-    position: absolute;
-    transition: 1s ease-in-out;
+    position: relative;
+    /* transition: 1s ease-in-out;
     width: 100%;
-    /* left: 0;
+    left: 0;
     top: 0;
     bottom: 0;
     margin: auto;
     right: 0; 
     height: 100%;  */
-
 }
-
 
 .banner-sub-block .banner-text {
     position: absolute;
@@ -225,6 +220,9 @@
     margin-top: -70px;
 
 }
+.text-on-image-heading h2{
+    margin-bottom: 15px;
+}
 
 
 /* -------------------------------Media query---------------------------------------- */
@@ -243,12 +241,13 @@
         font-size: 1.7rem;
         padding: 4px 10px;
     }
+
     .text-on-image-text-block {
         margin-top: -40px;
     }
-
-
-
+    h2{
+        font-size: 3.1rem;
+    }
 }
 
 @media (max-width:650px) {
@@ -266,12 +265,12 @@
         font-weight: bold;
     }
 
-    .banner-image img {
+    /* .banner-image img {
         min-height: 400px;
-    }
+    } */
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -279,9 +278,11 @@
     .signpost-rollover-box .signpost-rollover-detail .signpost-description p {
         font-size: 1.5rem;
     }
-
-    .banner {
-        min-height: 400px;
+    .rollover-variation .signpost-description p{
+        font-size: 1.6rem;
     }
+    /* .banner {
+        min-height: 400px;
+    } */
 
 }

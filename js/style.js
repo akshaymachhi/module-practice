@@ -24,14 +24,14 @@ function slideshow(num) {
     }
 
     for (let y of slider) {
-        y.style.opacity = 0;
+        // y.style.opacity = 0;
 
-        // y.style.display = "none"
+        y.style.display = "none"
         //  y.style.visibility = "hidden";
     }
 
-    slider[num].style.opacity = 1;
-    // slider[num].style.display = "block";
+    // slider[num].style.opacity = 1;
+    slider[num].style.display = "block";
     // y.style.visibility = "visible";
 }
 
