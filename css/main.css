@@ -265,9 +265,9 @@
         font-weight: bold;
     }
 
-    /* .banner-image img {
+    .banner-image img {
         min-height: 400px;
-    } */
+    }
 
     p {
         font-size: 1.7rem;
