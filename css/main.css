@@ -4,12 +4,10 @@
 
 .banner {
     position: relative;
-}
-
-.banner {
-    position: relative;
-    /* height: 541px; */
     min-height: 541px;
+}
+.banner-image img{
+    width: 100%;
 }
 
 .banner-sub-block {
@@ -20,8 +18,8 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    right: 0; */
-    /* height: 100%; */
+    right: 0; 
+    height: 100%;  */
 
 }
 
@@ -245,6 +243,10 @@
         font-size: 1.7rem;
         padding: 4px 10px;
     }
+    .text-on-image-text-block {
+        margin-top: -40px;
+    }
+
 
 
 }

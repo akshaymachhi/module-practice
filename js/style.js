@@ -1,31 +1,33 @@
 
 /* =============================== Sliding Banner =============================== */
 
-let flag = 0;
+let counter = 0;
 
 function btnclick(x) {
-    flag = flag + x;
-    slideshow(flag);
+    counter = counter + x;
+    slideshow(counter);
 }
-slideshow(flag);
+
+slideshow(counter);
 
 function slideshow(num) {
     let slider = document.getElementsByClassName('banner-sub-block');
 
     if (num == slider.length) {
-        flag = 0;
+        counter = 0;
         num = 0;
     }
+
     if (num < 0) {
-        flag = slider.length - 1;
+        counter = slider.length - 1;
         num = slider.length - 1;
     }
 
     for (let y of slider) {
         y.style.opacity = 0;
+
         // y.style.display = "none"
         //  y.style.visibility = "hidden";
-
     }
 
     slider[num].style.opacity = 1;
