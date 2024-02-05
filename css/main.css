@@ -160,20 +160,10 @@
 
 .image-slider {
     position: relative;
-    /* height: 541px; */
 }
 
 .image-slider-sub-block {
     position: relative;
-    /* transition: 1s ease-in-out;
-    width: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    right: 0; 
-    height: 100%;  */
-    /* left: 0; */
 }
 
 .image-slider-sub-block .image-slider-text {
@@ -211,12 +201,6 @@
 .next {
     right: 20px;
 }
-
-/* .abc{
-    position: relative;
-    right: 0;
-} */
-
 
 /* <!------------------------------------TABS CONATENT-------------------------------------> */
 
