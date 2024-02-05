@@ -78,6 +78,7 @@ a:hover {
     font-weight: 500;
     font-size: 1.6rem;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .cta :hover {
