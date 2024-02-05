@@ -1,12 +1,12 @@
-@import url(./global.css);
-@import url(./banner.css);
-@import url(./feature-content.css);
-@import url(./signpost.css);
-@import url(./accordion.css);
-@import url(./signpost-rollover.css);
-@import url(./image-slider.css);
-@import url(./tabs.css);
-@import url(./image-carousel.css);
+@import "./global.css";
+@import "./banner.css";
+@import "./feature-content.css";
+@import "./signpost.css";
+@import "./accordion.css";
+@import "./signpost-rollover.css";
+@import "./image-slider.css";
+@import "./tabs.css";
+@import "./image-carousel.css";
 
-@import url(./ipad.css);
-@import url(./iphone.css);
+@import "./ipad.css";
+@import "./iphone.css";
