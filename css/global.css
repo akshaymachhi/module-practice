@@ -17,10 +17,6 @@ img {
     width: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
 p {
     font-size: 1.8rem;
 }
@@ -34,20 +30,44 @@ h2 {
 }
 
 h3 {
-    font-size: 2.6rem;
+    font-size: 2.7rem;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 2.6rem;
+}
+
+h5 {
+    font-size: 2.5rem;
+}
+
+a {
+    color: var(--black-color);
+    font-size: 1.8rem;
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+a:hover {
+    color: #372d2d;
 }
 
 :root {
     --white-color: #ffffff;
+    --black-color: #000000;
     --green-color: #125C4F;
     --light-green: #0f987f;
     --brow-color: #3a0808;
     --yellow-color: #FAF2A6;
     --gray-color: #615c5c;
+    --light-brown: #ECEAE4;
+    --sienna-color: #896C4C;
+    --dark-stone-color: #7E8182;
+    --red-color: #D92B2B;
+
 }
 
 .primary-cta {

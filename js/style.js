@@ -1,4 +1,3 @@
-
 /* =============================== Sliding Banner =============================== */
 
 let counter = 0;
@@ -11,31 +10,56 @@ function btnclick(x) {
 slideshow(counter);
 
 function slideshow(num) {
-    let slider = document.getElementsByClassName('banner-sub-block');
+
+    let slider = document.getElementsByClassName('image-slider-sub-block');
+    // let abc = document.querySelectorAll('.image-slider-sub-block');
+
+    // abc.forEach(item => {
+    //     item.classList.add('abc');
+
+    //     for (i = 0; i < abc.length; i++) {
+    //         if (abc[i] == item) {
+    //             item.classList.add('abc');
+
+    //         }
+    //         else {
+    //             accordionItems[i].classList.remove('abc');
+    //         }
+    //     }
+
+    // }
+    // );
 
     if (num == slider.length) {
         counter = 0;
         num = 0;
+
     }
 
     if (num < 0) {
+
         counter = slider.length - 1;
         num = slider.length - 1;
+
     }
 
     for (let y of slider) {
-        // y.style.opacity = 0;
 
+        // y.style.opacity = 0;
         y.style.display = "none"
         //  y.style.visibility = "hidden";
-    }
 
+    }
     // slider[num].style.opacity = 1;
     slider[num].style.display = "block";
+
     // y.style.visibility = "visible";
+
 }
 
+
 /* <!-- --------------------------------------------ACCORDION JS---------------------------------------------- --> */
+
 
 const accordionItems = document.querySelectorAll('.accordion-box');
 
@@ -58,7 +82,9 @@ accordionItems.forEach(item => {
 });
 document.querySelector(".accordion-title").click();
 
+
 /* <!------------------------------------TABS CONATENT-------------------------------------> */
+
 
 let tabButtons = document.querySelectorAll(".buttonlinks");
 
