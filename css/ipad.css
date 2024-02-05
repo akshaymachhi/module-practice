@@ -1,0 +1,35 @@
+/* -------------------------------Media query---------------------------------------- */
+
+@media (max-width:950px) {
+    .signpost-rollover-box .signpost-rollover-detail .signpost-description p {
+        font-size: 1.5rem;
+    }
+
+    .rollover-variation .signpost-description p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .feature-content-details {
+        margin-bottom: 30px;
+    }
+
+    .signpost-box {
+        margin-bottom: 30px;
+    }
+
+    .arrow {
+        font-size: 1.7rem;
+        padding: 4px 10px;
+    }
+
+    .text-on-image-text-block {
+        margin-top: -40px;
+    }
+
+    h2 {
+        font-size: 3.1rem;
+    }
+}

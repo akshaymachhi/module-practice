@@ -1,3 +1,4 @@
+
 /* =============================== Sliding Banner =============================== */
 
 let counter = 0;
@@ -57,9 +58,7 @@ function slideshow(num) {
 
 }
 
-
 /* <!-- --------------------------------------------ACCORDION JS---------------------------------------------- --> */
-
 
 const accordionItems = document.querySelectorAll('.accordion-box');
 
@@ -84,7 +83,6 @@ document.querySelector(".accordion-title").click();
 
 
 /* <!------------------------------------TABS CONATENT-------------------------------------> */
-
 
 let tabButtons = document.querySelectorAll(".buttonlinks");
 

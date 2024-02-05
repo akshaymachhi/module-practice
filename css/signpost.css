@@ -1,0 +1,11 @@
+/* --------------------------------------Sign Post-------------------------------------------- */
+
+.signpost-variation {
+    background-color: var(--yellow-color);
+}
+
+.signpost-variation .signpost-box .signpost-detail {
+    background-color: var(--white-color);
+    padding: 15px;
+
+}

@@ -1,0 +1,22 @@
+/* <!---------------------------------------Text on image wrapper--------------------------------------------- --> */
+
+.text-on-image-wrapper {
+    margin-bottom: 50px;
+}
+
+.image-section img {
+    width: 100%;
+}
+
+.text-on-image-text-block {
+    background: var(--brow-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 25px;
+    margin-top: -70px;
+
+}
+
+.text-on-image-heading h2 {
+    margin-bottom: 15px;
+}

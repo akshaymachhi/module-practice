@@ -1,0 +1,32 @@
+/* <!------------------------------------TABS CONATENT-------------------------------------> */
+
+.tabs-main-block {
+    background: rgb(206, 199, 199);
+}
+
+.tab {
+    /* padding-bottom: 20px; */
+    overflow: hidden;
+}
+
+.tab .buttonlinks {
+    background-color: var(--gray-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.7rem;
+}
+
+.tab button:hover {
+    background-color: #484343;
+}
+
+.tab button.active {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.btncontent {
+    padding: 20px 15px;
+    background: rgb(211, 186, 153);
+}

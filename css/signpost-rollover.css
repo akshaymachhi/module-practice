@@ -1,0 +1,39 @@
+/* -------------------------Sign Post-Image/Image with Rollover/Document Download------------------ */
+
+.rollover-variation {
+    background: var(--light-green);
+}
+
+.rollover-variation .signpost-box {
+    position: relative;
+}
+
+.rollover-variation .signpost-box .signpost-detail {
+    height: 60px;
+    position: absolute;
+    padding: 15px;
+    bottom: 0;
+    background: rgba(41, 38, 38, 0.979);
+    color: var(--white-color);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.rollover-variation .signpost-box .signpost-detail .signpost-title h3 {
+    padding-bottom: 10px;
+}
+
+.rollover-variation .signpost-box:hover .signpost-detail {
+    height: 180px;
+    padding: 10px;
+}
+
+/* .signpost-detail p {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.signpost-detail:hover p {
+    visibility: visible;  
+    opacity: 1;  
+} */

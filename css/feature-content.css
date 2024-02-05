@@ -1,0 +1,14 @@
+/* <!--========================= Feature content =============================== --> */
+
+.feature-content-image img {
+    width: 100%;
+}
+
+.feature-content-details.feature-label {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.feature-title h3 {
+    margin: 15px 0;
+}

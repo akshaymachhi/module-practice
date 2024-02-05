@@ -1,0 +1,41 @@
+/* ====================================== Slick banner ============================= */
+
+.banner-image img {
+    object-fit: inherit;
+    min-height: 50vh;
+}
+
+.slider-main {
+    padding: 0;
+}
+
+.slick-banner {
+    overflow: hidden;
+}
+
+.image-content {
+    position: absolute;
+    color: var(--white-color);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slick-dots {
+    bottom: 10px !important;
+}
+
+.slick-dots li button:before {
+    color: var(--white-color);
+    width: 8px;
+    height: 8px;
+    content: '';
+    background: var(--white-color);
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+/* .slick-dots li.slick-active button::before {
+    font-size: 55px;
+} */

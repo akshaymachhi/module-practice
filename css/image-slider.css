@@ -1,0 +1,45 @@
+/* ====================================== Image slider ============================= */
+
+.image-slider {
+    position: relative;
+}
+
+.image-slider-sub-block {
+    position: relative;
+}
+
+.image-slider-sub-block .image-slider-text {
+    position: absolute;
+    color: var(--white-color);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-slider-sub-block .image-slider-text h1 {
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: rgb(88, 83, 83);
+    padding: 7px 18px;
+    background: var(--white-color);
+    position: absolute;
+    top: 45%;
+    border-radius: 50%;
+}
+
+.arrow:hover {
+    border: 2px rgb(147, 132, 132);
+    cursor: pointer;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
