@@ -22,7 +22,7 @@
   object-fit: cover;
 }
 
-.swiper-slide {
+.swiper-text-main{
   background-color: var(--light-brown);
 }
 
