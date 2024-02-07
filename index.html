@@ -294,46 +294,6 @@
         </div>
     </section>
 
-    <!-- /* ================================= Image Slider================================== */ -->
-
-    <section class="image-slider-main section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="offset-sm-1 col-sm-10 p-0">
-                    <div class="image-slider">
-                        <div class="image-slider-sub-block">
-                            <div class="image-slider-image">
-                                <img src="./images/image-slider1.jpg" alt="banner1">
-                            </div>
-                            <div class="image-slider-text">
-                                <h2>Image Slider 1</h2>
-                            </div>
-                        </div>
-
-                        <div class="image-slider-sub-block">
-                            <div class="image-slider-image">
-                                <img src="./images/image-slider-2.jpg" alt="banner1">
-                            </div>
-                            <div class="image-slider-text">
-                                <h2>Image Slider 2</h2>
-                            </div>
-                        </div>
-
-                        <div class="image-slider-sub-block">
-                            <div class="image-slider-image">
-                                <img src="./images/image-slider-3.jpg" alt="banner1">
-                            </div>
-                            <div class="image-slider-text">
-                                <h2>Image Slider 3</h2>
-                            </div>
-                        </div>
-                        <span class="arrow prev" onclick="btnclick(-1)">&#10094</span>
-                        <span class="arrow next" onclick="btnclick(1)">&#10095</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-----------------------------------------TABS CONATENT-------------------------------------------- -->
 
@@ -400,22 +360,22 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="slider-image">
-                                    <img src="./images/carousel-1.jpg" alt="">
+                                    <img src="./images/carousel-1.jpg" alt="" class="slider">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="slider-image">
-                                    <img src="./images/carousel-2.jpg" alt="">
+                                    <img src="./images/carousel-2.jpg" alt="" class="slider"> 
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="slider-image">
-                                    <img src="./images/carousel-1.jpg" alt="">
+                                    <img src="./images/carousel-1.jpg" alt="" class="slider">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="slider-image">
-                                    <img src="./images/carousel-3.jpg" alt="">
+                                    <img src="./images/carousel-3.jpg" alt="" class="slider">
                                 </div>
                             </div>
                         </div>
@@ -576,7 +536,7 @@
         $('.slider').slick({
             dots: true,
             infinite: true,
-            speed: 300,
+            speed: 1000,
             slidesToShow: 1,
             autoplay: true,
             adaptiveHeight: true
@@ -584,6 +544,7 @@
 
 
     </script>
+
     <!---------------------------------------BOOSTRAP JS--------------------------------------------- -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -593,7 +554,6 @@
     <!-- ================================== Main JS file ============================= -->
 
     <script src="./js/main.js"></script>
-
 
 </body>
 
