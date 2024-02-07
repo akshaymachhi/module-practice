@@ -3,7 +3,7 @@
 
 .swiper-text-main {
   position: relative;
-  bottom: 60px;
+  bottom: 100px;
   height: 220px;
 }
 
@@ -39,6 +39,10 @@
   color: var(--white-color);
   border-radius: 50%;
   font-size: 20px;
+}
+
+.image-carousel-main{
+  margin-top: 70px;
 }
 
 .carousel-textbox .carousel-title {
