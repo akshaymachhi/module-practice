@@ -33,19 +33,29 @@
     color: var(--white-color);
 }
 
-.media-card .media-card-image,.media-link a span {
-    transition: 0.3s;
-}
 
-.media-card .media-card-image:hover {
+.media-card:hover .media-card-image{
     transform: scale(1.1);
-}
+    transition: 0.5s;
 
-.media-link a::after{
+}
+.media-card  a::after{
     content:url('../images/arrow.png');
     margin: 8px;
+    transition: all ease-in-out 0.5s;
+    position: relative;
+    bottom: -2px;
 }
 
-.media-link a span:hover{
-    margin-right: 12px;
+
+.media-card:hover .media-link a::after{
+    /* content:url('../images/arrow.png'); */
+    right: -10px;   
 }
+
+
+/* .media-link a span:hover{
+    margin-right: 12px;
+    transition: 0.3s;
+
+} */
