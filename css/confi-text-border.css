@@ -1,0 +1,41 @@
+
+
+.main-block-heading h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.configuration-text-sub-title h6{
+    padding-bottom: 20px;
+}
+
+.configuration-text{
+    border-left: 2px solid #DBDBDB;
+    padding-left: 25px;
+}
+
+.configuration-text{
+    position: relative;
+}
+
+.configuration-text::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #DBDBDB;
+    position: absolute;
+    border-radius: 100px;
+    top: -7px;
+    left: -6px;
+}
+.configuration-text::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #DBDBDB;
+    position: absolute;
+    border-radius: 100px;
+    bottom: -7px;
+    left: -6px;
+}

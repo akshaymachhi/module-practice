@@ -99,6 +99,10 @@
   border-top-right-radius: 20px;
 }
 
+.carousel-cta a{
+     color: var(--black-color);
+}
+
 /* .swiper {
   width: 100%;
   max-height: 500px;

@@ -1,0 +1,51 @@
+/* -- ------------------------------------------- Media Card ------------------------------------- - */
+
+.media-card-main {
+    padding: 80px 0;
+    background-color: #F3F3F3;
+    color: var(--white-color);
+}
+
+.media-card-main .media-card {
+    /* padding: 0 16px; */
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.media-card-main .media-card .media-card-details {
+    position: absolute;
+    top: 25%;
+    padding: 24px;
+}
+
+.media-card-main .media-card .media-card-details .media-title h3 {
+    padding-bottom: 32px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.media-card-main .media-card .media-card-details .media-link a {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.media-card .media-card-image,.media-link a span {
+    transition: 0.3s;
+}
+
+.media-card .media-card-image:hover {
+    transform: scale(1.1);
+}
+
+.media-link a::after{
+    content:url('../images/arrow.png');
+    margin: 8px;
+}
+
+.media-link a span:hover{
+    margin-right: 12px;
+}

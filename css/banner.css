@@ -3,6 +3,7 @@
 .banner-image img {
     object-fit: inherit;
     min-height: 50vh;
+    width: 100%;
 }
 
 .slider-main {
