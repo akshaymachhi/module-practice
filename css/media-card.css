@@ -6,56 +6,32 @@
     color: var(--white-color);
 }
 
-.media-card-main .media-card {
-    /* padding: 0 16px; */
+.media-card-main .media-card-component{
     position: relative;
     cursor: pointer;
     overflow: hidden;
     border-radius: 10px;
 }
 
+.media-card-component .secondary-cta a:hover{
+    color: var(--white-color);
+}
 
-.media-card-main .media-card .media-card-details {
+.media-card-main .media-card-component .media-card .media-card-details{
     position: absolute;
     top: 25%;
     padding: 24px;
 }
 
-.media-card-main .media-card .media-card-details .media-title h3 {
+.media-card-main .media-card-component .media-card .media-card-details .media-title h3 {
     padding-bottom: 32px;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
-.media-card-main .media-card .media-card-details .media-link a {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--white-color);
-}
-
-
-.media-card:hover .media-card-image{
-    transform: scale(1.1);
+.media-card-component .media-card .media-card-image img{
     transition: 0.5s;
-
 }
-.media-card  a::after{
-    content:url('../images/arrow.png');
-    margin: 8px;
-    transition: all ease-in-out 0.5s;
-    position: relative;
-    bottom: -2px;
+.media-card-component .media-card:hover .media-card-image img{
+    transform: scale(1.1);
 }
-
-
-.media-card:hover .media-link a::after{
-    /* content:url('../images/arrow.png'); */
-    right: -10px;   
-}
-
-
-/* .media-link a span:hover{
-    margin-right: 12px;
-    transition: 0.3s;
-
-} */

@@ -1,32 +1,46 @@
 /* -------------------------Sign Post-Image/Image with Rollover/Document Download------------------ */
 
-.rollover-variation {
-    background: var(--light-green);
-}
+/* .rollover-variation {
+    background: var(--yellow-color);
+} */
 
 .rollover-variation .signpost-box {
     position: relative;
+    height: 400px;
+    cursor: pointer;
+
 }
 
+.rollover-variation .signpost-box .signpost-image,img{
+    height: 100%;
+} 
+
 .rollover-variation .signpost-box .signpost-detail {
-    height: 60px;
     position: absolute;
-    padding: 15px;
+    padding: 30px;
     bottom: 0;
-    background: rgba(41, 38, 38, 0.979);
     color: var(--white-color);
     transition: 0.5s;
     overflow: hidden;
+    height: 90px;
 }
 
-.rollover-variation .signpost-box .signpost-detail .signpost-title h3 {
+.rollover-variation .signpost-box:hover .signpost-detail{
+    height: 270px;
+}
+
+.rollover-variation .signpost-box .secondary-cta a:hover{
+    color: var(--white-color);
+}
+
+/* .rollover-variation .signpost-box .signpost-detail .signpost-title h3 {
     padding-bottom: 10px;
-}
+} */
 
-.rollover-variation .signpost-box:hover .signpost-detail {
+/* .rollover-variation .signpost-box:hover .signpost-detail {
     height: 180px;
     padding: 10px;
-}
+} */
 
 /* .signpost-detail p {
     visibility: hidden;

@@ -10,7 +10,7 @@ html {
 }
 
 .section-padding {
-    padding: 70px 0;
+    margin-top: 100px;
 }
 
 img {
@@ -27,10 +27,14 @@ h1 {
 
 h2 {
     font-size: 3.5rem;
+    font-weight: 750;
+    line-height: 45px;
 }
 
 h3 {
     font-size: 2.7rem;
+    padding-bottom: 20px;
+    font-weight: 600;
 }
 
 h4 {
@@ -40,12 +44,14 @@ h4 {
 h5 {
     font-size: 2.5rem;
 }
-h6{
+
+h6 {
     font-size: 2rem;
     font-weight: bold;
 }
+
 a {
-    /* font-size: 1.8rem; */
+    font-size: 1.8rem;
     display: block;
     text-decoration: none;
     width: fit-content;
@@ -53,9 +59,6 @@ a {
     padding-bottom: 0;
 }
 
-a:hover {
-    color: #372d2d;
-}
 
 :root {
     --white-color: #ffffff;
@@ -63,32 +66,82 @@ a:hover {
     --green-color: #125C4F;
     --light-green: #0f987f;
     --brow-color: #3a0808;
-    --yellow-color: #FAF2A6;
+    /* --yellow-color: #FAF2A6; */
     --gray-color: #615c5c;
     --light-brown: #ECEAE4;
     --sienna-color: #896C4C;
     --dark-stone-color: #7E8182;
     --red-color: #D92B2B;
+    --yellow-color: #ffd300;
 
 }
+
+/* ================================ Primary-CTA ============================== */
 
 .primary-cta {
-    padding: 10px 22px;
-    background-color: var(--green-color);
-    color: var(--white-color);
+    padding: 10px 20px;
+    background-color: var(--yellow-color);
+    color: var(--black-color);
     display: inline-block;
-    font-weight: 500;
+    border-radius: 8px;
+    font-weight: 700;
     font-size: 1.6rem;
-    border-radius: 30px;
     cursor: pointer;
+    width: fit-content;
 }
 
-.cta :hover {
-    background: var(--light-green);
-    color: var(--white-color);
-    transition: 0.5s;
+.cta .primary-cta:hover {
+    background: rgba(255, 211, 0, 0.6);
+    color: var(--black-color);
+}
+
+.cta .primary-cta:hover::after {
+    left: 15px;
+}
+
+.cta a.primary-cta::after {
+    content: '';
+    background-image: url('/images/btn-arrow.svg');
+    background-position: center;
+    display: inline-flex;
+    width: 10px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+    /* margin-left: 15px; */
+    transition: all 0.4s ease-in-out;
+
 }
 
 .cta {
     margin-top: 20px;
+    /* width: fit-content; */
+}
+
+/* ================================ Secondary-CTA ============================== */
+
+.secondary-cta {
+    font-family: "New Transport AA";
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--white-color);
+    line-height: 24px;
+}
+
+.secondary-link {
+    color: var(--white-color);
+}
+
+.secondary-cta a::after {
+    content: url('../images/arrow.png');
+    margin: 8px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.media-card-component:hover .secondary-cta a::after {
+    padding-left: 20px;
+    bottom: -2px;
 }

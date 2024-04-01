@@ -1,0 +1,180 @@
+
+.mega-navigation-main {
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    /* padding: 15px 0; */
+    position: relative;
+}
+
+.mega-navigation-main .main-nav-link ul li {
+    list-style: none;
+}
+
+.mega-navigation-main ul li a {
+    color: var(--black-color);
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.navigation-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ---------------Logo CSS---------- */
+.navigation-logo .logo p {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #00081C;
+}
+
+/* -------------------Link CSS----------- */
+
+.main-nav-link .first-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.main-nav-link ul li::after {
+    content: '';
+    width: 0px;
+    height: 4px;
+    background-color: var(--black-color);
+    display: block;
+    transition: 1s;
+    /* position: relative;
+    bottom: -31px;
+    left: 0; */
+    /* margin: auto; */
+}
+
+.main-nav-link ul li:hover:after {
+    width: 100%;
+}
+
+.navigation-list {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.fa-angle-right {
+    position: absolute;
+    right: 10%;
+    top: 14px;
+    font-size: 1.5rem;
+}
+
+.main-nav-arrow {
+    display: none;
+}
+
+.main-nav-link .first-nav-links li {
+    padding: 25px 25px;
+}
+
+.main-nav-link .first-nav-links li .second-nav-links li {
+    padding: 10px 15px;
+}
+
+.main-nav-link .first-nav-links li ul {
+    background-color: var(--white-color);
+    padding: 10px 0;
+    width: 200px;
+
+}
+
+.second-nav-links {
+    position: absolute;
+    top: 87px;
+    left: 0;
+}
+
+.third-nav-links {
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.mega-navigation-main .main-nav-link .first-nav-links li ul {
+    display: none;
+}
+
+.mega-navigation-main .main-nav-link .first-nav-links li:hover>ul {
+    display: initial;
+}
+.nav-button {
+    display: none;
+}
+
+
+
+@media (max-width:992px) {
+
+    .mega-navigation-main {
+        padding: 15px 5px;
+    }
+
+    .mega-navigation-main nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--white-color);
+        z-index: 99;
+        min-height: 100vh;
+    }
+
+    .main-nav-link .first-nav-links li {
+        padding: 10px 0px;
+    }
+
+    .mega-navigation-main ul li a {
+        font-size: 1.6rem;
+    }
+
+    .main-nav-link ul li:hover:after {
+        width: 0;
+    }
+
+    .mega-navigation-main nav .main-nav-link .first-nav-links li {
+        width: 100%;
+    }
+
+    .mega-navigation-main nav .main-nav-link .first-nav-links li .second-nav-links {
+        position: relative;
+        width: 100%;
+        top: 10px;
+    }
+
+    .mega-navigation-main .navbar .main-nav-link .first-nav-links li .second-nav-links li .third-nav-links {
+        position: relative;
+        width: 100%;
+        top: 10px;
+        left: 10px;
+    }
+
+    .main-nav-arrow {
+        display: block;
+    }
+
+
+    .nav-button {
+        display: block;
+        padding: 5px;
+        background-color: var(--yellow-color);
+        border: none;
+        font-size: 2.5rem;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .btntoggle {
+        display: block;
+    }
+}

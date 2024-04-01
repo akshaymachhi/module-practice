@@ -46,3 +46,11 @@ for (let i = 0; i < tabButtons.length; i++) {
     });
 }
 document.querySelector(".buttonlinks").click();
+
+
+/* <!-- --------------------------------------------Navigation JS---------------------------------------------- --> */
+
+let btn = document.querySelector(".nav-button");
+btn.addEventListener("click", function () {
+    document.querySelector(".navbar").classList.toggle("btntoggle");
+})
