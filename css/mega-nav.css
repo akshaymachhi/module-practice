@@ -136,7 +136,7 @@
         font-size: 1.6rem;
     }
 
-    .main-nav-link ul li:hover:after {
+    .main-nav-link ul li:hover::after {
         width: 0;
     }
 
