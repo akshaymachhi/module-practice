@@ -53,4 +53,6 @@ document.querySelector(".buttonlinks").click();
 let btn = document.querySelector(".nav-button");
 btn.addEventListener("click", function () {
     document.querySelector(".navbar").classList.toggle("btntoggle");
-})
+    document.querySelector(".nav-button").classList.toggle("active");
+
+});
