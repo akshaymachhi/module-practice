@@ -8,7 +8,10 @@
     .rollover-variation .signpost-description p {
         font-size: 1.6rem;
     }
-    
+    .media-title{
+        height: 50px;
+        overflow: hidden;
+    }
 }
 
 @media (max-width:768px) {
