@@ -3,7 +3,7 @@
 @media (max-width:576px) {
 
     .section-padding {
-        padding: 40px 0;
+        margin-top: 50px;
     }
 
     .banner-text p {

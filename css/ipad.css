@@ -8,13 +8,6 @@
     .rollover-variation .signpost-description p {
         font-size: 1.6rem;
     }
-    .rollover-variation .signpost-box .signpost-detail {
-        height: 110px;
-    }
-    .rollover-variation .signpost-box:hover .signpost-detail{
-        height: 90%;
-    }
-
     
 }
 
@@ -44,5 +37,6 @@
     .media-card{
         margin-bottom: 20px;
     }
+    
   
 }
