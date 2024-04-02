@@ -101,7 +101,7 @@ a {
 
 .cta a.primary-cta::after {
     content: '';
-    background-image: url('/images/btn-arrow.svg');
+    background-image: url('../images/btn-arrow.svg');
     background-position: center;
     display: inline-flex;
     width: 10px;
