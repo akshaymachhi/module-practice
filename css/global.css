@@ -141,7 +141,3 @@ a {
 
 }
 
-.media-card-component:hover .secondary-cta a::after {
-    padding-left: 20px;
-    bottom: -2px;
-}

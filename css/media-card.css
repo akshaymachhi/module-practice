@@ -35,3 +35,8 @@
 .media-card-component .media-card:hover .media-card-image img{
     transform: scale(1.1);
 }
+
+.media-card-component:hover .secondary-cta a::after {
+    padding-left: 20px;
+    bottom: -2px;
+}
