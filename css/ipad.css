@@ -1,45 +1,46 @@
 /* -------------------------------Media query---------------------------------------- */
 
-@media (max-width:950px) {
-    .signpost-rollover-box .signpost-rollover-detail .signpost-description p {
-        font-size: 1.5rem;
-    }
+@media (max-width: 950px) {
+  .signpost-rollover-box .signpost-rollover-detail .signpost-description p {
+    font-size: 1.5rem;
+  }
 
-    .rollover-variation .signpost-description p {
-        font-size: 1.6rem;
-    }
-    .media-title{
-        height: 50px;
-        overflow: hidden;
-    }
+  .rollover-variation .signpost-description p {
+    font-size: 1.6rem;
+  }
+  .media-title {
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .rollover-variation .signpost-box .signpost-detail {
+    bottom: 20px;
+  }
 }
 
-@media (max-width:768px) {
-    
-    .signpost-box {
-        margin-bottom: 30px;
-    }
+@media (max-width: 768px) {
+  .signpost-box {
+    margin-bottom: 30px;
+  }
 
-    .arrow {
-        font-size: 1.7rem;
-        padding: 4px 10px;
-    }
+  .arrow {
+    font-size: 1.7rem;
+    padding: 4px 10px;
+  }
 
-    .text-on-image-text-block {
-        margin-top: -40px;
-    }
+  .text-on-image-text-block {
+    margin-top: -40px;
+  }
 
-    h2 {
-        font-size: 2.8rem;
-    }
-    
-    .configuration-text{
-        margin-bottom: 40px;
-        padding-left: 20px;
-    }
-    .media-card{
-        margin-bottom: 20px;
-    }
-    
-  
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .configuration-text {
+    margin-bottom: 40px;
+    padding-left: 20px;
+  }
+  .media-card {
+    margin-bottom: 20px;
+  }
 }
