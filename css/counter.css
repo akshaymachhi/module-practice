@@ -1,0 +1,16 @@
+
+.counter-main{
+    text-align: center;
+    background-color:#2B3949;
+    padding: 60px 0;
+  }
+  
+  .counter-section .number {
+    font-size: 3rem;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .counter-section p{
+    color: var(--yellow-color);
+  }
