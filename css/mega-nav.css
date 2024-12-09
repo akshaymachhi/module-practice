@@ -44,10 +44,6 @@
     background-color: var(--black-color);
     display: block;
     transition: 1s;
-    /* position: relative;
-    bottom: -31px;
-    left: 0; */
-    /* margin: auto; */
 }
 
 .main-nav-link ul li:hover:after {
@@ -154,7 +150,7 @@
         position: relative;
         width: 100%;
         top: 10px;
-        left: 10px;
+        left: 30px;
     }
 
     .main-nav-arrow {
