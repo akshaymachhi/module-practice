@@ -1,6 +1,11 @@
 /* -------------------------------Media query---------------------------------------- */
 
 @media (max-width: 950px) {
+
+  .signpost-box {
+    margin-bottom: 20px;
+  }
+
   .signpost-rollover-box .signpost-rollover-detail .signpost-description p {
     font-size: 1.5rem;
   }
@@ -19,9 +24,6 @@
 }
 
 @media (max-width: 768px) {
-  .signpost-box {
-    margin-bottom: 30px;
-  }
 
   .arrow {
     font-size: 1.7rem;
